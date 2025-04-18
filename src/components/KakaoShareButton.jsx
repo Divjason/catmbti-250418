@@ -7,8 +7,6 @@ const KakaoShareButton = () => {
   const url = "https://dogmbti-cat.netlify.app/";
   const resultURL = window.location.href;
 
-  console.log("Test: ", url, resultURL);
-
   useEffect(() => {
     Kakao.cleanup();
     Kakao.init("47087443b486b60aa18487a0f86ecf53");
